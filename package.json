@@ -1,0 +1,17 @@
+{
+  "name": "casestudy2",
+  "version": "1.0.0",
+  "description": "Employee App backend (Express + MongoDB Atlas)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.22.3",
+    "mongoose": "^9.11.2"
+  }
+}
